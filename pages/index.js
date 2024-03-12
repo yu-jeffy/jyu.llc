@@ -2,6 +2,7 @@ import styles from '../styles/index.module.css';
 import React, { useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import NavBar from '../components/NavBar';
 
 const Home = () => {
     useEffect(() => {
@@ -28,43 +29,75 @@ const Home = () => {
 
     return (
         <div className={styles.container}>
-            <section className={styles.homeSection}>
-                <div id='stars'></div>
-                <div id='stars2'></div>
-                <div id='stars3'></div>
-                <div className={styles.name}><span className={styles.nameText}>jeffy yu</span></div>
-            </section>
-            <section className={styles.homeSection}>
-                <div className={styles.occupation}>
-                    <span className={styles.occupationText}>full stack eng, ml research, web3, art</span>
-                </div>
+            <NavBar />
+            <div className={styles.starContainer}>
+                <div className={styles.stars}></div>
+                <div className={styles.stars2}></div>
+                <div className={styles.stars3}></div>
+            </div>
+            <div className={styles.content}>
+                <section className={styles.homeSection}>
+                    <div className={styles.name}><span className={styles.nameText}>jeffy yu</span></div>
+                </section>
+                <section className={styles.homeSection}>
+                    <div className={styles.occupation}>
+                        <span className={styles.occupationText}>full stack eng, ml research, web3, art</span>
+                    </div>
 
-                <div className={styles.links}>
-                    <Link href="https://github.com/yu-jeffy/">
-                        <Image
-                            className = {styles.icon}
-                            src="/github.png"
-                            width={50}
-                            height={50}
-                            alt="foundation"
-                        />
-                    </Link>
-                    <Link href="https://foundation.app">
-                        <Image
-                            className = {styles.icon}
-                            src="/foundation.png"
-                            width={50}
-                            height={50}
-                            alt="foundation"
-                        />
-                    </Link>
-                </div>
+                    <div className={styles.links}>
+                        <Link href="https://github.com/yu-jeffy/">
+                            <Image
+                                className={styles.icon}
+                                src="/github.png"
+                                width={50}
+                                height={50}
+                                alt="foundation"
+                            />
+                        </Link>
+                        <Link href="https://www.linkedin.com/in/jeffyyu/">
+                            <Image
+                                className={styles.icon}
+                                src="/linkedin.png"
+                                width={50}
+                                height={50}
+                                alt="linkedin"
+                            />
+                        </Link>
+                        <Link href="https://mirror.xyz/jyu.eth">
+                            <Image
+                                className={styles.icon}
+                                src="/mirrorxyz.png"
+                                width={50}
+                                height={50}
+                                alt="mirror"
+                            />
+                        </Link>
+                        <Link href="https://parallelpolis.llc">
+                            <Image
+                                className={styles.icon}
+                                src="/parallelpolis.png"
+                                width={50}
+                                height={50}
+                                alt="parallelpolis"
+                            />
+                        </Link>
+                        <Link href="https://foundation.app/@jeffzyu">
+                            <Image
+                                className={styles.icon}
+                                src="/foundation.png"
+                                width={50}
+                                height={50}
+                                alt="foundation"
+                            />
+                        </Link>
+                    </div>
 
-                <div className={styles.about}>
-                    <span className={styles.aboutText}>0x0c778e66efa266b5011c552C4A7BDA63Ad24C37B</span>
-                    <span className={styles.aboutText}>+1 (480) 370 7055 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; jeff.yu@parallelpolis.llc</span>
-                </div>
-            </section>
+                    <div className={styles.about}>
+                        <span className={styles.aboutText}>0x0c778e66efa266b5011c552C4A7BDA63Ad24C37B</span>
+                        <span className={styles.aboutText}>+1 (480) 370 7055 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; jeff.yu@parallelpolis.llc</span>
+                    </div>
+                </section>
+            </div>
         </div>
     );
 }

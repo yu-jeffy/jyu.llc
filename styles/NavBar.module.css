@@ -1,0 +1,28 @@
+.nav {
+    background: transparent;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    box-sizing: border-box;
+    z-index: 99999;
+}
+
+.navList {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    margin-right: 3vw;
+    padding: 0;
+}
+
+.navItem {}
+
+.navLink {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    color: inherit;
+}
