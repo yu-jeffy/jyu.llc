@@ -56,10 +56,14 @@ function Gallery() {
 
     return (
         <div className={styles.container}>
-            <button onClick={toggleView} style={{ fontFamily: 'Arial', fontSize: '3rem' }}>
-                {view === 'grid' ? '\u2630' : '\u1392\u1392\u1392'}
-            </button>
-            {renderGallery()}
+            <div>
+                <button onClick={toggleView} style={{ fontFamily: 'Arial', fontSize: '3rem' }}>
+                    {view === 'grid' ? '\u2630' : '\u1392\u1392\u1392'}
+                </button>
+            </div>
+            <div>
+                {renderGallery()}
+            </div>
         </div>
     );
 }

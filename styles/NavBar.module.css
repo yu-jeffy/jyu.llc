@@ -13,7 +13,6 @@
     display: flex;
     gap: 1em;
     list-style: none;
-    margin-right: 3vw;
     padding: 0;
 }
 
@@ -25,4 +24,5 @@
     font-family: Helvetica, sans-serif;
     text-decoration: none;
     color: inherit;
+    margin-right: 3vw;
 }
