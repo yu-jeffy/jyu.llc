@@ -29,7 +29,7 @@
   flex-direction: column;
 }
 .homeSection:nth-child(1) {
-  height: 40vh;
+  height: 40%;
   align-items: flex-end;
   justify-content: flex-end;
   animation: fade-bottom ease 2s;
@@ -37,7 +37,7 @@
   animation-fill-mode: forwards;
 }
 .homeSection:nth-child(2) {
-  height: 60vh;
+  height: 60%;
   align-items: center;
   animation: fade-bottom ease 3s;
   animation-iteration-count: 1;
@@ -112,6 +112,10 @@
 
 /* Mobile */
 @media (max-width: 600px) {
+  .container {
+    overflow-y: hidden;
+  }
+
   .occupationText {
     font-size: 14px;
     text-align: center;
