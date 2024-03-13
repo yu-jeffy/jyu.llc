@@ -79,6 +79,15 @@ const Home = () => {
                                 alt="parallelpolis"
                             />
                         </Link>
+                        <Link href="https://twitter.com/jyu_eth">
+                            <Image
+                                className={styles.icon}
+                                src="/x.png"
+                                width={50}
+                                height={50}
+                                alt="x"
+                            />
+                        </Link>
                         <Link href="https://foundation.app/@jeffzyu">
                             <Image
                                 className={styles.icon}
