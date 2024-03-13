@@ -15,14 +15,20 @@ const NavBar = () => {
                         </Link>
                     </li>
                 )}
-                <li className={styles.navItem}>
-                    <Link href="/portfolio" className={styles.navLink}>
-                        technical portfolio
-                    </Link>
-                    <Link href="/gallery" className={styles.navLink}>
-                        gallery
-                    </Link>
-                </li>
+                {router.pathname !== '/portfolio' && (
+                    <li className={styles.navItem}>
+                        <Link href="/portfolio" className={styles.navLink}>
+                            technical portfolio
+                        </Link>
+                    </li>
+                )}
+                {router.pathname !== '/gallery' && (
+                    <li className={styles.navItem}>
+                        <Link href="/gallery" className={styles.navLink}>
+                            gallery
+                        </Link>
+                    </li>
+                )}
             </ul>
         </nav>
     );
