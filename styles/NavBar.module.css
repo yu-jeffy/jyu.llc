@@ -16,8 +16,6 @@
     padding: 0;
 }
 
-.navItem {}
-
 .navLink {
     font-size: 1.2em;
     font-weight: bold;
@@ -26,3 +24,10 @@
     color: inherit;
     margin-right: 3vw;
 }
+
+/* Mobile */
+@media (max-width: 600px) {
+    .nav {
+        display: hidden;
+    }
+  }

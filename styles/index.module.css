@@ -5,6 +5,7 @@
     margin: 0px;
     padding: 0px;
     height: 100vh;
+    max-height: 100vh;
     overflow: hidden;
     box-sizing: border-box;
     display: flex;
@@ -108,6 +109,24 @@
 .icon:hover {
   transform: scale(1.35); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
+/* Mobile */
+@media (max-width: 600px) {
+  .occupationText {
+    font-size: 16px; /* Adjust as needed */
+    text-align: center;
+  }
+
+  .icon {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+  }
+
+  .aboutText {
+    font-size: .75rem; /* Adjust as needed */
+  }
+}
+
 
 /* Fade Animations*/
 .reveal {
