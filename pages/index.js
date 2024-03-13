@@ -2,7 +2,6 @@ import styles from '../styles/index.module.css';
 import React, { useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import NavBar from '../components/NavBar';
 
 const Home = () => {
     useEffect(() => {
@@ -29,7 +28,6 @@ const Home = () => {
 
     return (
         <div className={styles.container}>
-            <NavBar />
             <div className={styles.starContainer}>
                 <div className={styles.stars}></div>
                 <div className={styles.stars2}></div>

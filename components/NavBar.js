@@ -6,6 +6,9 @@ const NavBar = () => {
         <nav className={styles.nav}>
             <ul className={styles.navList}>
                 <li className={styles.navItem}>
+                    <Link href="/" className={styles.navLink}>
+                        home
+                    </Link>
                     <Link href="/portfolio" className={styles.navLink}>
                         technical portfolio
                     </Link>
