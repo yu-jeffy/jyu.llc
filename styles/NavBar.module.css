@@ -27,6 +27,15 @@
     margin-right: 3vw;
 }
 
+.navLinkWhite {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    margin-right: 3vw;
+    color: white;
+}
+
 /* Mobile */
 @media (max-width: 600px) {
     .nav {

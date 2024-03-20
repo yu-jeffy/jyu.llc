@@ -2,7 +2,7 @@
     cursor: url("../public/glitch_cursor_32_invert.png"), auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: flex-start;
     margin: 0;
     padding-top: 9vh;
@@ -17,44 +17,68 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
-    max-width: 1200px;
+    width: 100vw;
+    align-items: center;
 }
 
 .gridArt {
-    margin: 1vh 2vw;
+    position: relative;
     width: auto;
-    max-width: 10vw;
+    height: 20vh;
+    margin: 1vh 2vw;
+    overflow: hidden;
+}
+
+.gridArt img, .gridArt video {
+    width: auto;
+    height: 20vh;
+    object-fit: contain;
 }
 
 .listContainer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 800px;
+    max-width: 50vw;
     margin: 0 auto;
+    align-items: flex-start;
 }
 
 .listItem {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: space-between;
     margin-bottom: 2vh;
     width: 100%;
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.listArt {
+    position: relative;
+    width: auto;
+    height: 25vh;
+    overflow: hidden;
 }
 
 .itemDetails {
     margin-left: 20px;
+    text-align: right;
 }
 
 .tabs {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
     margin-bottom: 2vh;
+    padding-left: 3vw;
+    width: 100% - 4vw;
+    padding-right: 1vw;
 }
 
-.tabItem, .viewToggleButton {
+.tabItem {
     cursor: pointer;
     margin: 0 10px;
     border: none;
@@ -62,6 +86,23 @@
     padding: 8px 16px;
     font-weight: bold;
     color: white;
+}
+
+.toggleButtonContainer {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.viewToggleButton {
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 8px 16px;
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
 }
 
 .activeTab {

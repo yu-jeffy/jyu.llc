@@ -1,29 +1,108 @@
 [
     {
-        "type": "Painting",
+        "type": "Generative",
         "items": [
             {
-                "fileLocation": "/art/plastic.jpg",
-                "title": "Sunset Bliss",
-                "description": "A beautiful sunset captured on canvas.",
-                "artist": "Jane Doe"
+                "fileLocation": "/art/come_up_onset.mp4",
+                "title": "Come Up Onset",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/cyberdream.mp4",
+                "title": "Cyberdream",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/drowning in a dream.mp4",
+                "title": "Drowning in a Dream",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/Ephermeral.png",
+                "title": "Ephermeral",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/heart_onset.mp4",
+                "title": "Heart Onset",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/i_can_almost_see_through_the_wires.mp4",
+                "title": "I Can Almost See Through The Wires",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/In The Machine.mp4",
+                "title": "In The Machine",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/Lost In LA.png",
+                "title": "Lost In LA",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/oblivion.mp4",
+                "title": "Oblivion",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/peak_onset.mp4",
+                "title": "Peak Onset",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/peony eyes.mp4",
+                "title": "Peony Eyes",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/Symbiote.png",
+                "title": "Symbiote",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/Realization.mp4",
+                "title": "Realization",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/Smoked Out.png",
+                "title": "Smoked Out",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/girls night out 4k.jpg",
+                "title": "Girls Night Out",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/glassTableCinderella.jpg",
+                "title": "Glass Table Cinderella",
+                "description": "",
+                "artist": ""
             },
             {
                 "fileLocation": "/art/plastic.jpg",
-                "title": "Nature's Heart",
-                "description": "Expressing nature's magnificence through art.",
-                "artist": "John Smith"
-            }
-        ]
-    },
-    {
-        "type": "Sculpture",
-        "items": [
-            {
-                "fileLocation": "/art/plastic.jpg",
-                "title": "Modern Man",
-                "description": "A sculpture reflecting modern-day challenges.",
-                "artist": "Alex Johnson"
+                "title": "Plastic",
+                "description": "",
+                "artist": ""
             }
         ]
     }

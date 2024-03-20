@@ -10,7 +10,7 @@ const NavBar = () => {
             <ul className={styles.navList}>
                 {router.pathname !== '/' && (
                     <li className={styles.navItem}>
-                        <Link href="/" className={styles.navLink}>
+                        <Link href="/" className={router.pathname !== '/' ? styles.navLinkWhite : styles.navLink}>
                             home
                         </Link>
                     </li>
