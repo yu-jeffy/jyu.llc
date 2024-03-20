@@ -46,7 +46,7 @@ const Home = () => {
                         <Link href="https://github.com/yu-jeffy/">
                             <Image
                                 className={styles.icon}
-                                src="/github.png"
+                                src="/logos/github.png"
                                 width={50}
                                 height={50}
                                 alt="foundation"
@@ -55,7 +55,7 @@ const Home = () => {
                         <Link href="https://www.linkedin.com/in/jeffyyu/">
                             <Image
                                 className={styles.icon}
-                                src="/linkedin.png"
+                                src="/logos/linkedin.png"
                                 width={50}
                                 height={50}
                                 alt="linkedin"
@@ -64,7 +64,7 @@ const Home = () => {
                         <Link href="https://mirror.xyz/jyu.eth">
                             <Image
                                 className={styles.icon}
-                                src="/mirrorxyz.png"
+                                src="/logos/mirrorxyz.png"
                                 width={50}
                                 height={50}
                                 alt="mirror"
@@ -73,7 +73,7 @@ const Home = () => {
                         <Link href="https://parallelpolis.llc">
                             <Image
                                 className={styles.icon}
-                                src="/parallelpolis.png"
+                                src="/logos/parallelpolis.png"
                                 width={50}
                                 height={50}
                                 alt="parallelpolis"
@@ -82,7 +82,7 @@ const Home = () => {
                         <Link href="https://twitter.com/jyu_eth">
                             <Image
                                 className={styles.icon}
-                                src="/x.png"
+                                src="/logos/x.png"
                                 width={50}
                                 height={50}
                                 alt="x"
@@ -91,7 +91,7 @@ const Home = () => {
                         <Link href="https://foundation.app/@jeffzyu">
                             <Image
                                 className={styles.icon}
-                                src="/foundation.png"
+                                src="/logos/foundation.png"
                                 width={50}
                                 height={50}
                                 alt="foundation"

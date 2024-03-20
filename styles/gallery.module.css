@@ -1,23 +1,70 @@
 .container {
+    cursor: url("../public/glitch_cursor_32_invert.png"), auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    width: 100vw;
     flex-direction: column;
-    overflow-y: scroll;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding-top: 9vh;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+    background-color: black;
 }
 
 .gridContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .gridArt {
-    margin-left: 2vw;
-    margin-right: 2vw;
-    margin-bottom: 3vh;
+    margin: 1vh 2vw;
+    width: auto;
+    max-width: 10vw;
+}
+
+.listContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2vh;
+    width: 100%;
+}
+
+.itemDetails {
+    margin-left: 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2vh;
+}
+
+.tabItem, .viewToggleButton {
+    cursor: pointer;
+    margin: 0 10px;
+    border: none;
+    background: none;
+    padding: 8px 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.activeTab {
+    color: #ffd1f3;
+    border-bottom: 2px solid #ffd1f3;
 }

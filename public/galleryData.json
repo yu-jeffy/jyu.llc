@@ -1,0 +1,30 @@
+[
+    {
+        "type": "Painting",
+        "items": [
+            {
+                "fileLocation": "/art/plastic.jpg",
+                "title": "Sunset Bliss",
+                "description": "A beautiful sunset captured on canvas.",
+                "artist": "Jane Doe"
+            },
+            {
+                "fileLocation": "/art/plastic.jpg",
+                "title": "Nature's Heart",
+                "description": "Expressing nature's magnificence through art.",
+                "artist": "John Smith"
+            }
+        ]
+    },
+    {
+        "type": "Sculpture",
+        "items": [
+            {
+                "fileLocation": "/art/plastic.jpg",
+                "title": "Modern Man",
+                "description": "A sculpture reflecting modern-day challenges.",
+                "artist": "Alex Johnson"
+            }
+        ]
+    }
+]
