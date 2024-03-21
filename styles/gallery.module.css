@@ -6,6 +6,7 @@
     justify-content: flex-start;
     margin: 0;
     padding-top: 9vh;
+    padding-bottom: 15vh;
     width: 100vw;
     min-height: 100vh;
     overflow-y: auto;
@@ -38,9 +39,8 @@
 .listContainer {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    max-width: 50vw;
-    margin: 0 auto;
+    width: 75vw;
+    margin: 4vh auto;
     align-items: flex-start;
 }
 
@@ -50,16 +50,22 @@
     align-items: flex-start;
     justify-content: space-between;
     margin-bottom: 2vh;
-    width: 100%;
+    width: 75vw;
     color: white;
     font-family: 'Helvetica', sans-serif;
 }
 
 .listArt {
     position: relative;
+    height: 75vh;
     width: auto;
-    height: 25vh;
     overflow: hidden;
+}
+
+.listArt img, .listArt video {
+    height: 75vh;
+    width: auto;
+    object-fit: scale-down;
 }
 
 .itemDetails {
@@ -75,7 +81,7 @@
     margin-bottom: 2vh;
     padding-left: 3vw;
     width: 100% - 4vw;
-    padding-right: 1vw;
+    padding-right: .5vw;
 }
 
 .tabItem {

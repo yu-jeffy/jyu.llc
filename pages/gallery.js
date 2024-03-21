@@ -46,7 +46,7 @@ function Gallery() {
                             Your browser does not support the video tag.
                         </video>
                     ) : (
-                        <Image src={item.fileLocation} width={150} height={250} alt={item.title} />
+                        <Image className={styles.listArt} src={item.fileLocation} width={150} height={250} alt={item.title} unoptimized/>
                     )}
                     <div className={styles.itemDetails}>
                         <h3>{item.title}</h3>

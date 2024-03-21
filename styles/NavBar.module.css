@@ -1,7 +1,7 @@
 .nav {
     cursor: url("../public/glitch_cursor_32.png"), auto;
     background: transparent;
-    position: fixed;
+    position: absolute;
     width: 100vw;
     display: flex;
     justify-content: flex-end;
@@ -9,6 +9,7 @@
     box-sizing: border-box;
     z-index: 99999;
     height: 8vh;
+    pointer-events: none;
 }
 
 .navList {
@@ -25,6 +26,7 @@
     text-decoration: none;
     color: inherit;
     margin-right: 3vw;
+    pointer-events: all;
 }
 
 .navLinkWhite {
@@ -34,6 +36,7 @@
     text-decoration: none;
     margin-right: 3vw;
     color: white;
+    pointer-events: all;
 }
 
 /* Mobile */

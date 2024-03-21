@@ -23,6 +23,7 @@ const NavBar = () => {
                         </Link>
                     </li>
                 )}
+                */}
                 {router.pathname !== '/gallery' && (
                     <li className={styles.navItem}>
                         <Link href="/gallery" className={styles.navLink}>
@@ -30,7 +31,7 @@ const NavBar = () => {
                         </Link>
                     </li>
                 )}
-                */}
+                
             </ul>
         </nav>
     );

@@ -1,10 +1,148 @@
 [
     {
-        "type": "Painting",
+        "type": "Painting / Digital Art",
         "items": [
             {
-                "fileLocation": "/art/generative/come_up_onset.mp4",
-                "title": "Come Up Onset",
+                "fileLocation": "/art/painting-digitalart/The House Is On Fire.JPG",
+                "title": "The House Is On Fire",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/Tessa.JPG",
+                "title": "Tessa",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/The Sunsets We'll Never Watch.jpg",
+                "title": "The Sunsets We'll Never Watch",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/American_Woman.jpg",
+                "title": "American Woman",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/Bloody Roots.jpg",
+                "title": "Bloody Roots",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/Thorns.JPG",
+                "title": "Thorns",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/Liars In Louis.jpg",
+                "title": "Liars In Louis",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/Greer.jpg",
+                "title": "Greer",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/Adulterants.JPG",
+                "title": "Adulterants",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/Heartburst.jpg",
+                "title": "Adulterants",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/Cards And Flowers.jpg",
+                "title": "Cards And Flowers",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/clowns.JPG",
+                "title": "Clowns",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/control.JPG",
+                "title": "Control",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/god's joke.JPG",
+                "title": "God's Joke",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/half measures 1.JPG",
+                "title": "Half Measures 1",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/half measures 2.JPG",
+                "title": "Half Measures 2",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/i miss u.JPG",
+                "title": "I Miss You",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/iloveuihateu.JPG",
+                "title": "I Love You I Hate You",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/In Case Of Anxiety.JPG",
+                "title": "In Case Of Anxiety",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/instant relief.JPG",
+                "title": "Instant Relief",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/Isolation.JPG",
+                "title": "Isolation",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/Pins and Needles.JPG",
+                "title": "Pins and Needles",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/Stay Busy or Spiral.JPG",
+                "title": "Stay Busy or Spiral",
+                "description": "",
+                "artist": ""
+            },
+            {
+                "fileLocation": "/art/painting-digitalart/vultures.JPG",
+                "title": "Vultures",
                 "description": "",
                 "artist": ""
             }
@@ -114,7 +252,43 @@
                 "title": "Plastic",
                 "description": "",
                 "artist": ""
-            }
+            },
+            {
+                "fileLocation": "/art/generative/Chiral Compatability.PNG",
+                "title": "Chiral Compatibility",
+                "description": "",
+                "artist": ""
+              },
+              {
+                "fileLocation": "/art/generative/Grips of Greed.PNG",
+                "title": "Grips of Greed",
+                "description": "",
+                "artist": ""
+              },
+              {
+                "fileLocation": "/art/generative/Heartbreak In The Clouds.PNG",
+                "title": "Heartbreak In The Clouds",
+                "description": "",
+                "artist": ""
+              },
+              {
+                "fileLocation": "/art/generative/Interstellar Zoo.PNG",
+                "title": "Interstellar Zoo",
+                "description": "",
+                "artist": ""
+              },
+              {
+                "fileLocation": "/art/generative/Shatter.PNG",
+                "title": "Shatter",
+                "description": "",
+                "artist": ""
+              },
+              {
+                "fileLocation": "/art/generative/Suburbia.PNG",
+                "title": "Suburbia",
+                "description": "",
+                "artist": ""
+              }
         ]
     }
 ]
