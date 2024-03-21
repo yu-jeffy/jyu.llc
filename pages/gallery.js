@@ -59,6 +59,7 @@ function Gallery() {
 
     return (
         <div className={styles.container}>
+            <span className={styles.mobileWarning}>Site Optimized for Desktop</span>
             <div className={styles.starContainer}>
                 <div className={styles.stars}></div>
                 <div className={styles.stars2}></div>

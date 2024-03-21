@@ -89,8 +89,8 @@
     flex-wrap: wrap;
     margin-bottom: 2vh;
     padding-left: 3vw;
-    width: 100% - 4vw;
-    padding-right: .5vw;
+    width: 100% - 6vw;
+    padding-right: 3vw;
     z-index: 999;
 }
 
@@ -127,6 +127,20 @@
     border-bottom: 2px solid #ffd1f3;
 }
 
+.mobileWarning {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .mobileWarning {
+        display: block;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        font-family: "Helvetica", sans-serif;
+        margin: 4vh 0 4vh 0;
+    }
+}
 
 /* Stars */
 .starContainer{
