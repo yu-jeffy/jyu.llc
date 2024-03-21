@@ -194,7 +194,8 @@
   overflow-y: auto;
   font-size: 1.25rem;
   font-family: "Helvetica", sans-serif;
-  background-color: #fff;
+  background-color: whitesmoke;
+  border-radius: 20px;
 }
 
 /* Stars */
