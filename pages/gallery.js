@@ -59,6 +59,11 @@ function Gallery() {
 
     return (
         <div className={styles.container}>
+            <div className={styles.starContainer}>
+                <div className={styles.stars}></div>
+                <div className={styles.stars2}></div>
+                <div className={styles.stars3}></div>
+            </div>
             <div className={styles.tabs}>
                 {galleryData.map((tab, index) => (
                     <button
