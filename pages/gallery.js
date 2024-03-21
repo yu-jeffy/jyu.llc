@@ -7,6 +7,7 @@ function Gallery() {
     const [view, setView] = useState('grid');
     const [activeTab, setActiveTab] = useState(galleryData[0].type);
     const [artItems, setArtItems] = useState([]);
+    const [popupItem, setPopupItem] = useState(null);
 
     useEffect(() => {
         const activeArt = galleryData.find(art => art.type === activeTab);
@@ -17,6 +18,14 @@ function Gallery() {
         setView(view === 'grid' ? 'list' : 'grid');
     };
 
+    const openPopup = (item) => {
+        setPopupItem(item); // Set the item to be displayed in the popup
+    };
+
+    const closePopup = () => {
+        setPopupItem(null); // Reset the popup item to close the popup
+    }
+
     const renderGalleryItems = () => {
         return view === 'grid' ? renderGrid() : renderList();
     };
@@ -25,12 +34,12 @@ function Gallery() {
         <div className={styles.gridContainer}>
             {artItems.map((item, index) => (
                 item.fileLocation.endsWith('.mp4') ? (
-                    <video key={index} className={styles.gridArt} autoPlay loop muted playsInline preload="auto">
+                    <video key={index} className={styles.gridArt} autoPlay loop muted playsInline preload="auto" onClick={() => openPopup(item)}>
                         <source src={item.fileLocation} type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                 ) : (
-                    <Image key={index} className={styles.gridArt} src={item.fileLocation} width={50} height={50} alt={item.title} unoptimized />
+                    <Image key={index} className={styles.gridArt} src={item.fileLocation} width={50} height={50} alt={item.title} unoptimized onClick={() => openPopup(item)} />
                 )
             ))}
         </div>
@@ -41,15 +50,16 @@ function Gallery() {
             {artItems.map((item, index) => (
                 <div key={index} className={styles.listItem}>
                     {item.fileLocation.endsWith('.mp4') ? (
-                        <video className={styles.listArt} width="320" height="240" controls>
+                        <video className={styles.listArt} width="320" height="240" controls onClick={() => openPopup(item)}>
                             <source src={item.fileLocation} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                     ) : (
-                        <Image className={styles.listArt} src={item.fileLocation} width={150} height={250} alt={item.title} unoptimized/>
+                        <Image className={styles.listArt} src={item.fileLocation} width={150} height={250} alt={item.title} unoptimized onClick={() => openPopup(item)} />
                     )}
                     <div className={styles.itemDetails}>
-                        <h3>{item.title}</h3>
+                        <h2>{item.title}</h2>
+                        <h3>{item.artist}</h3>
                         <p>{item.description}</p>
                     </div>
                 </div>
@@ -83,6 +93,30 @@ function Gallery() {
             <div>
                 {renderGalleryItems()}
             </div>
+            {popupItem && (
+                <div className={styles.popupContainer} onClick={closePopup}> {/* Close popup when clicked outside */}
+                    <div className={styles.popupContent} > {/* onClick={e => e.stopPropagation()} Prevent click inside popup from closing it */}
+                        {popupItem.fileLocation.endsWith('.mp4') ? (
+                            <div className={styles.popupArtContainer}>
+                                <video className={styles.popupArt} controls>
+                                    <source src={popupItem.fileLocation} type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        ) : (
+                            <div className={styles.popupArtContainer}>
+                                <Image className={styles.popupArt} src={popupItem.fileLocation} width={50} height={50} alt={popupItem.title} unoptimized />
+                            </div>
+                        )}
+
+                        <div className={styles.popupDetails}>
+                            <h2>{popupItem.title}</h2>
+                            <h3>{popupItem.artist}</h3>
+                            <p>{popupItem.description}</p>
+                        </div>
+                    </div>
+                </div>
+            )}
         </div>
     );
 }
