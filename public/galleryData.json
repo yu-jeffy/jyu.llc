@@ -1,105 +1,116 @@
 [
     {
+        "type": "Painting",
+        "items": [
+            {
+                "fileLocation": "/art/generative/come_up_onset.mp4",
+                "title": "Come Up Onset",
+                "description": "",
+                "artist": ""
+            }
+        ]
+    },
+    {
         "type": "Generative",
         "items": [
             {
-                "fileLocation": "/art/come_up_onset.mp4",
+                "fileLocation": "/art/generative/come_up_onset.mp4",
                 "title": "Come Up Onset",
                 "description": "",
                 "artist": ""
             },
             {
-                "fileLocation": "/art/cyberdream.mp4",
+                "fileLocation": "/art/generative/cyberdream.mp4",
                 "title": "Cyberdream",
                 "description": "",
                 "artist": ""
             },
             {
-                "fileLocation": "/art/drowning in a dream.mp4",
+                "fileLocation": "/art/generative/drowning in a dream.mp4",
                 "title": "Drowning in a Dream",
                 "description": "",
                 "artist": ""
             },
             {
-                "fileLocation": "/art/Ephermeral.png",
+                "fileLocation": "/art/generative/Ephermeral.png",
                 "title": "Ephermeral",
                 "description": "",
                 "artist": ""
             },
             {
-                "fileLocation": "/art/heart_onset.mp4",
+                "fileLocation": "/art/generative/heart_onset.mp4",
                 "title": "Heart Onset",
                 "description": "",
                 "artist": ""
             },
             {
-                "fileLocation": "/art/i_can_almost_see_through_the_wires.mp4",
+                "fileLocation": "/art/generative/i_can_almost_see_through_the_wires.mp4",
                 "title": "I Can Almost See Through The Wires",
                 "description": "",
                 "artist": ""
             },
             {
-                "fileLocation": "/art/In The Machine.mp4",
+                "fileLocation": "/art/generative/In The Machine.mp4",
                 "title": "In The Machine",
                 "description": "",
                 "artist": ""
             },
             {
-                "fileLocation": "/art/Lost In LA.png",
+                "fileLocation": "/art/generative/Lost In LA.png",
                 "title": "Lost In LA",
                 "description": "",
                 "artist": ""
             },
             {
-                "fileLocation": "/art/oblivion.mp4",
+                "fileLocation": "/art/generative/oblivion.mp4",
                 "title": "Oblivion",
                 "description": "",
                 "artist": ""
             },
             {
-                "fileLocation": "/art/peak_onset.mp4",
+                "fileLocation": "/art/generative/peak_onset.mp4",
                 "title": "Peak Onset",
                 "description": "",
                 "artist": ""
             },
             {
-                "fileLocation": "/art/peony eyes.mp4",
+                "fileLocation": "/art/generative/peony eyes.mp4",
                 "title": "Peony Eyes",
                 "description": "",
                 "artist": ""
             },
             {
-                "fileLocation": "/art/Symbiote.png",
+                "fileLocation": "/art/generative/Symbiote.png",
                 "title": "Symbiote",
                 "description": "",
                 "artist": ""
             },
             {
-                "fileLocation": "/art/Realization.mp4",
+                "fileLocation": "/art/generative/Realization.mp4",
                 "title": "Realization",
                 "description": "",
                 "artist": ""
             },
             {
-                "fileLocation": "/art/Smoked Out.png",
+                "fileLocation": "/art/generative/Smoked Out.png",
                 "title": "Smoked Out",
                 "description": "",
                 "artist": ""
             },
             {
-                "fileLocation": "/art/girls night out 4k.jpg",
+                "fileLocation": "/art/generative/girls night out 4k.jpg",
                 "title": "Girls Night Out",
                 "description": "",
                 "artist": ""
             },
             {
-                "fileLocation": "/art/glassTableCinderella.jpg",
+                "fileLocation": "/art/generative/glassTableCinderella.jpg",
                 "title": "Glass Table Cinderella",
                 "description": "",
                 "artist": ""
             },
             {
-                "fileLocation": "/art/plastic.jpg",
+                "fileLocation": "/art/generative/plastic.jpg",
                 "title": "Plastic",
                 "description": "",
                 "artist": ""

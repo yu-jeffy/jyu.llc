@@ -63,7 +63,7 @@ function Gallery() {
                 {galleryData.map((tab, index) => (
                     <button
                         key={index}
-                        className={styles.tabItem}
+                        className={`${styles.tabItem} ${activeTab === tab.type ? styles.activeTab : ''}`}
                         onClick={() => setActiveTab(tab.type)}>
                         {tab.type}
                     </button>
