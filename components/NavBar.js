@@ -27,7 +27,7 @@ const NavBar = () => {
                 {router.pathname !== '/gallery' && (
                     <li className={styles.navItem}>
                         <Link href="/gallery" className={styles.navLink}>
-                            gallery
+                            gallery (wip)
                         </Link>
                     </li>
                 )}
