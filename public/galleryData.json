@@ -1,5 +1,268 @@
 [
     {
+        "type": "Generative",
+        "items": [
+            {
+                "fileLocation": "/art/generative2/beachpose1 v1.png",
+                "title": "Untitled",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative2/fuchsia1 v1.png",
+                "title": "Untitled",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative2/pasabistanya5 v2.png",
+                "title": "Untitled",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative2/pinkpole2 v2.png",
+                "title": "Untitled",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative2/rarigirl1 v1.png",
+                "title": "Untitled",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative2/rarigirl4 v1.png",
+                "title": "Untitled",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative2/starrynight5 v1.png",
+                "title": "Untitled",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative2/starrynight6 v1.png",
+                "title": "Untitled",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative2/symbiosis2 v1.png",
+                "title": "Untitled",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative2/symbiosis3 v1.png",
+                "title": "Untitled",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative2/symbiosis4 v1.png",
+                "title": "Untitled",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative2/vr1 v1.png",
+                "title": "Untitled",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative2/vr2 v1.png",
+                "title": "Untitled",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative2/whiteclothes1 v1.png",
+                "title": "Untitled",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative2/whiteclothes2 v1.png",
+                "title": "Untitled",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative2/whiteclothes3 v2.png",
+                "title": "Untitled",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative2/whiteclothes4 v1.png",
+                "title": "Untitled",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative2/whitefur1 v1.png",
+                "title": "Untitled",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative2/whitefur5 v1.png",
+                "title": "Untitled",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative2/whitefur8 v1.png",
+                "title": "Untitled",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative/come_up_onset.mp4",
+                "title": "Come Up Onset",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative/cyberdream.mp4",
+                "title": "Cyberdream",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative/drowning in a dream.mp4",
+                "title": "Drowning in a Dream",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative/Ephermeral.png",
+                "title": "Ephermeral",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative/heart_onset.mp4",
+                "title": "Heart Onset",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative/i_can_almost_see_through_the_wires.mp4",
+                "title": "I Can Almost See Through The Wires",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative/In The Machine.mp4",
+                "title": "In The Machine",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative/Lost In LA.png",
+                "title": "Lost In LA",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative/oblivion.mp4",
+                "title": "Oblivion",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative/peak_onset.mp4",
+                "title": "Peak Onset",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative/peony eyes.mp4",
+                "title": "Peony Eyes",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative/Symbiote.png",
+                "title": "Symbiote",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative/Realization.mp4",
+                "title": "Realization",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative/Smoked Out.png",
+                "title": "Smoked Out",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative/girls night out 4k.jpg",
+                "title": "Girls Night Out",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative/glassTableCinderella.jpg",
+                "title": "Glass Table Cinderella",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative/plastic.jpg",
+                "title": "Plastic",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative/Chiral Compatability.PNG",
+                "title": "Chiral Compatibility",
+                "description": "",
+                "artist": "Jeffy Yu"
+              },
+              {
+                "fileLocation": "/art/generative/Grips of Greed.PNG",
+                "title": "Grips of Greed",
+                "description": "",
+                "artist": "Jeffy Yu"
+              },
+              {
+                "fileLocation": "/art/generative/Heartbreak In The Clouds.PNG",
+                "title": "Heartbreak In The Clouds",
+                "description": "",
+                "artist": "Jeffy Yu"
+              },
+              {
+                "fileLocation": "/art/generative/Interstellar Zoo.PNG",
+                "title": "Interstellar Zoo",
+                "description": "",
+                "artist": "Jeffy Yu"
+              },
+              {
+                "fileLocation": "/art/generative/Shatter.PNG",
+                "title": "Shatter",
+                "description": "",
+                "artist": "Jeffy Yu"
+              },
+              {
+                "fileLocation": "/art/generative/Suburbia.PNG",
+                "title": "Suburbia",
+                "description": "",
+                "artist": "Jeffy Yu"
+              }
+        ]
+    },
+    {
         "type": "Painting / Digital Art",
         "items": [
             {
@@ -146,149 +409,6 @@
                 "description": "",
                 "artist": "Jeffy Yu"
             }
-        ]
-    },
-    {
-        "type": "Generative",
-        "items": [
-            {
-                "fileLocation": "/art/generative/come_up_onset.mp4",
-                "title": "Come Up Onset",
-                "description": "",
-                "artist": "Jeffy Yu"
-            },
-            {
-                "fileLocation": "/art/generative/cyberdream.mp4",
-                "title": "Cyberdream",
-                "description": "",
-                "artist": "Jeffy Yu"
-            },
-            {
-                "fileLocation": "/art/generative/drowning in a dream.mp4",
-                "title": "Drowning in a Dream",
-                "description": "",
-                "artist": "Jeffy Yu"
-            },
-            {
-                "fileLocation": "/art/generative/Ephermeral.png",
-                "title": "Ephermeral",
-                "description": "",
-                "artist": "Jeffy Yu"
-            },
-            {
-                "fileLocation": "/art/generative/heart_onset.mp4",
-                "title": "Heart Onset",
-                "description": "",
-                "artist": "Jeffy Yu"
-            },
-            {
-                "fileLocation": "/art/generative/i_can_almost_see_through_the_wires.mp4",
-                "title": "I Can Almost See Through The Wires",
-                "description": "",
-                "artist": "Jeffy Yu"
-            },
-            {
-                "fileLocation": "/art/generative/In The Machine.mp4",
-                "title": "In The Machine",
-                "description": "",
-                "artist": "Jeffy Yu"
-            },
-            {
-                "fileLocation": "/art/generative/Lost In LA.png",
-                "title": "Lost In LA",
-                "description": "",
-                "artist": "Jeffy Yu"
-            },
-            {
-                "fileLocation": "/art/generative/oblivion.mp4",
-                "title": "Oblivion",
-                "description": "",
-                "artist": "Jeffy Yu"
-            },
-            {
-                "fileLocation": "/art/generative/peak_onset.mp4",
-                "title": "Peak Onset",
-                "description": "",
-                "artist": "Jeffy Yu"
-            },
-            {
-                "fileLocation": "/art/generative/peony eyes.mp4",
-                "title": "Peony Eyes",
-                "description": "",
-                "artist": "Jeffy Yu"
-            },
-            {
-                "fileLocation": "/art/generative/Symbiote.png",
-                "title": "Symbiote",
-                "description": "",
-                "artist": "Jeffy Yu"
-            },
-            {
-                "fileLocation": "/art/generative/Realization.mp4",
-                "title": "Realization",
-                "description": "",
-                "artist": "Jeffy Yu"
-            },
-            {
-                "fileLocation": "/art/generative/Smoked Out.png",
-                "title": "Smoked Out",
-                "description": "",
-                "artist": "Jeffy Yu"
-            },
-            {
-                "fileLocation": "/art/generative/girls night out 4k.jpg",
-                "title": "Girls Night Out",
-                "description": "",
-                "artist": "Jeffy Yu"
-            },
-            {
-                "fileLocation": "/art/generative/glassTableCinderella.jpg",
-                "title": "Glass Table Cinderella",
-                "description": "",
-                "artist": "Jeffy Yu"
-            },
-            {
-                "fileLocation": "/art/generative/plastic.jpg",
-                "title": "Plastic",
-                "description": "",
-                "artist": "Jeffy Yu"
-            },
-            {
-                "fileLocation": "/art/generative/Chiral Compatability.PNG",
-                "title": "Chiral Compatibility",
-                "description": "",
-                "artist": "Jeffy Yu"
-              },
-              {
-                "fileLocation": "/art/generative/Grips of Greed.PNG",
-                "title": "Grips of Greed",
-                "description": "",
-                "artist": "Jeffy Yu"
-              },
-              {
-                "fileLocation": "/art/generative/Heartbreak In The Clouds.PNG",
-                "title": "Heartbreak In The Clouds",
-                "description": "",
-                "artist": "Jeffy Yu"
-              },
-              {
-                "fileLocation": "/art/generative/Interstellar Zoo.PNG",
-                "title": "Interstellar Zoo",
-                "description": "",
-                "artist": "Jeffy Yu"
-              },
-              {
-                "fileLocation": "/art/generative/Shatter.PNG",
-                "title": "Shatter",
-                "description": "",
-                "artist": "Jeffy Yu"
-              },
-              {
-                "fileLocation": "/art/generative/Suburbia.PNG",
-                "title": "Suburbia",
-                "description": "",
-                "artist": "Jeffy Yu"
-              }
         ]
     }
 ]
