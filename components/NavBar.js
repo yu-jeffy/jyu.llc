@@ -24,10 +24,17 @@ const NavBar = () => {
                     </li>
                 )}
                 */}
-                {router.pathname !== '/gallery' && (
+                {router.pathname !== '/gallery' && router.pathname !== '/wheredowegonow' && (
                     <li className={styles.navItem}>
                         <Link href="/gallery" className={styles.navLink}>
                             gallery (wip)
+                        </Link>
+                    </li>
+                )}
+                {router.pathname !== '/wheredowegonow' && router.pathname !== '/' &&(
+                    <li className={styles.navItem}>
+                        <Link href="/wheredowegonow" className={router.pathname !== '/' ? styles.navLinkWhite : styles.navLink} >
+                            wheredowegonow
                         </Link>
                     </li>
                 )}
