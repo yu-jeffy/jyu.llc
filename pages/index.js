@@ -88,7 +88,7 @@ const Home = () => {
                                 alt="x"
                             />
                         </Link>
-                        <Link href="https://foundation.app/@jeffzyu">
+                        <Link href="https://foundation.app/@jeffy">
                             <Image
                                 className={styles.icon}
                                 src="/logos/foundation.png"
