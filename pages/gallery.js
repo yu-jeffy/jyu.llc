@@ -33,7 +33,7 @@ function Gallery() {
     const renderGrid = () => (
         <div className={styles.gridContainer}>
             {artItems.map((item, index) => (
-                item.fileLocation.endsWith('.mp4') ? (
+                item.fileLocation && item.fileLocation.endsWith('.mp4') ? (
                     <video key={index} className={styles.gridArt} autoPlay loop muted playsInline preload="auto" onClick={() => openPopup(item)}>
                         <source src={item.fileLocation} type="video/mp4" />
                         Your browser does not support the video tag.
@@ -49,7 +49,7 @@ function Gallery() {
         <div className={styles.listContainer}>
             {artItems.map((item, index) => (
                 <div key={index} className={styles.listItem}>
-                    {item.fileLocation.endsWith('.mp4') ? (
+                    {item.fileLocation && item.fileLocation.endsWith('.mp4') ? (
                         <video className={styles.listArt} width="320" height="240" controls onClick={() => openPopup(item)}>
                             <source src={item.fileLocation} type="video/mp4" />
                             Your browser does not support the video tag.

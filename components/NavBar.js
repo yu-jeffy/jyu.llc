@@ -31,13 +31,6 @@ const NavBar = () => {
                         </Link>
                     </li>
                 )}
-                {router.pathname !== '/wheredowegonow' && router.pathname !== '/' &&(
-                    <li className={styles.navItem}>
-                        <Link href="/wheredowegonow" className={router.pathname !== '/' ? styles.navLinkWhite : styles.navLink} >
-                            wheredowegonow
-                        </Link>
-                    </li>
-                )}
                 
             </ul>
         </nav>

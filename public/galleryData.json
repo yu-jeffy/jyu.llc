@@ -3,6 +3,162 @@
         "type": "Generative",
         "items": [
             {
+                "fileLocation": "/art/generative3/butterflybeauty1 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/butterflybeauty2 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/butterflybeauty3 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/butterflybeauty4 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/butterflybeauty5 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/butterflybeauty6 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/butterflybeauty7 v2.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/butterflybeauty8 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/butterflybeauty9 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/butterflybeauty10 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/butterflybeauty11 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/butterflybeauty12 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/butterflybeauty13 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/butterflybeauty14 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/butterflybeauty15 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/butterflybeauty17 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/butterflybeauty18 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/butterflybeauty19 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/butterflybeauty20 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/bwmodel1 v2.jpg",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/bwmodel2 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/bwmodel3 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/bwmodel4 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/bwmodel5 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/motorcycletrick1 v1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/generative3/muddy1 v2.jpg",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
                 "fileLocation": "/art/generative2/beachpose1 v1.png",
                 "title": "Untitled",
                 "description": "",
@@ -406,6 +562,526 @@
             {
                 "fileLocation": "/art/painting-digitalart/vultures.JPG",
                 "title": "Vultures",
+                "description": "",
+                "artist": "Jeffy Yu"
+            }
+        ]
+    },
+    {
+        "type": "Where Do We Go Now?",
+        "items": [
+            {
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu",
+                "fileLocation": "/art/wheredowegonow/train v2.png"
+            },
+            {
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu",
+                "fileLocation": "/art/wheredowegonow/flood2 v3.png"
+            },
+            {
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu",
+                "fileLocation": "/art/wheredowegonow/hands1 v1.png"
+            },
+            {
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu",
+                "fileLocation": "/art/wheredowegonow/flood3 v3.png"
+            },
+            {
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu",
+                "fileLocation": "/art/wheredowegonow/pastel1 v1.png"
+            }
+        ]
+    },
+    {
+        "type": "City Pop",
+        "items": [
+            {
+                "fileLocation": "/art/citypop/anime1.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime2.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime3.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime4.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime5.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime6.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime7.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime8.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime9.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime10.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime11.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime12.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime13.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime14.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime15.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime16.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime17.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime18.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime19.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime20.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime21.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime22.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime23.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime24.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime25.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime26.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime27.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime28.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime29.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime30.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime31.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime32.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime33.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime34.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime35.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime36.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime37.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime38.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime39.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime40.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime41.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime42.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime43.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime44.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime45.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime46.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime47.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime48.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime49.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime50.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime51.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime52.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime53.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime54.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime55.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime56.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime57.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime58.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime59.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime60.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime61.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime62.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime63.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime64.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime65.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime66.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime67.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime68.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime69.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime70.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime71.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime72.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime73.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime74.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime75.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime76.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime77.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime78.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime79.png",
+                "title": "",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/citypop/anime80.png",
+                "title": "",
                 "description": "",
                 "artist": "Jeffy Yu"
             }
