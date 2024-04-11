@@ -23,7 +23,7 @@
 .folderTitle {
     font-size: 1.2em;
     color: beige;
-    text-decoration: underline;
+    text-decoration: none;
     cursor: pointer;
 }
 
