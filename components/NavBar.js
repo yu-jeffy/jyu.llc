@@ -15,6 +15,16 @@ const NavBar = () => {
                         </Link>
                     </li>
                 )}
+                
+                {router.pathname !== '/exhibit' && (
+                    <li className={styles.navItem}>
+                        <Link href="/exhibit" className={styles.navLink}>
+                        exhibit
+                        </Link>
+                    </li>
+                )}
+
+
                 {/*
                 {router.pathname !== '/portfolio' && (
                     <li className={styles.navItem}>
@@ -23,7 +33,7 @@ const NavBar = () => {
                         </Link>
                     </li>
                 )}
-                */}
+
                 {router.pathname !== '/gallery' && router.pathname !== '/wheredowegonow' && (
                     <li className={styles.navItem}>
                         <Link href="/gallery" className={styles.navLink}>
@@ -31,6 +41,7 @@ const NavBar = () => {
                         </Link>
                     </li>
                 )}
+                */}
                 
             </ul>
         </nav>
