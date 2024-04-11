@@ -6,7 +6,6 @@ export default function Home() {
     const [galleryData, setGalleryData] = useState([]);
     const [selectedItem, setSelectedItem] = useState(null);
     const [expandedFolders, setExpandedFolders] = useState([]);
-    const [loading, setLoading] = useState(false);
 
     useEffect(() => {
         fetch('/galleryData.json')
@@ -14,7 +13,7 @@ export default function Home() {
             .then(data => setGalleryData(data));
     }, []);
 
-    const toggleFolder = (type) => { // New function
+    const toggleFolder = (type) => {
         setExpandedFolders(prevState => {
             if (prevState.includes(type)) {
                 return prevState.filter(folderType => folderType !== type);
@@ -43,26 +42,21 @@ export default function Home() {
                 ))}
             </div>
             <div className={styles.mainContent}>
-    {loading ? (
-        <p>Loading...</p> // replace this with your loading animation
-    ) : (
-        selectedItem && (
-            <div className={styles.selectedItem}>
-                <h2 className={styles.selectedItemTitleInContent}>{selectedItem.title || 'Untitled'}</h2>
-                <p className={styles.selectedItemDescription}>{selectedItem.description}</p>
-                <p className={styles.selectedItemArtist}>{selectedItem.artist}</p>
-                <Image
-                    className={styles.selectedItemImage}
-                    src={selectedItem.fileLocation}
-                    alt={selectedItem.title}
-                    width={500}
-                    height={300}
-                    onLoad={() => setLoading(false)}
-                />
+                {selectedItem && (
+                    <div className={styles.selectedItem}>
+                        <h2 className={styles.selectedItemTitleInContent}>{selectedItem.title || 'Untitled'}</h2>
+                        <p className={styles.selectedItemDescription}>{selectedItem.description}</p>
+                        <p className={styles.selectedItemArtist}>{selectedItem.artist}</p>
+                        <Image
+                            className={styles.selectedItemImage}
+                            src={selectedItem.fileLocation}
+                            alt={selectedItem.title}
+                            width={500}
+                            height={300}
+                        />
+                    </div>
+                )}
             </div>
-        )
-    )}
-</div>
         </div>
     )
 }
