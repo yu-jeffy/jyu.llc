@@ -568,11 +568,125 @@
         ]
     },
     {
-        "type": "MANIA",
+        "type": "Neurotransmission",
         "items": [
             {
-                "fileLocation": "/art/mania/image.png",
+                "fileLocation": "/art/neurotransmission/1 v1.png",
                 "title": "1",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/neurotransmission/2 v1.png",
+                "title": "2",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/neurotransmission/3 v1.png",
+                "title": "3",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/neurotransmission/4 v1.png",
+                "title": "4",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/neurotransmission/5 v1.png",
+                "title": "5",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/neurotransmission/6 v1.png",
+                "title": "6",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/neurotransmission/7 v1.png",
+                "title": "7",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/neurotransmission/8 v1.png",
+                "title": "8",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/neurotransmission/9 v1.png",
+                "title": "9",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/neurotransmission/10 v1.png",
+                "title": "10",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/neurotransmission/11 v1.png",
+                "title": "11",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/neurotransmission/12 v1.png",
+                "title": "12",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/neurotransmission/13 v1.png",
+                "title": "13",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/neurotransmission/14 v1.png",
+                "title": "14",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/neurotransmission/15 v1.png",
+                "title": "15",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/neurotransmission/16 v1.png",
+                "title": "16",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/neurotransmission/17 v1.png",
+                "title": "17",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/neurotransmission/18 v1.png",
+                "title": "18",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/neurotransmission/19 v1.png",
+                "title": "19",
+                "description": "",
+                "artist": "Jeffy Yu"
+            },
+            {
+                "fileLocation": "/art/neurotransmission/20 v1.png",
+                "title": "20",
                 "description": "",
                 "artist": "Jeffy Yu"
             }
