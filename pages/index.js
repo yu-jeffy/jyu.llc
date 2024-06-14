@@ -35,7 +35,7 @@ const Home = () => {
             </div>
             <div className={styles.content}>
                 <section className={styles.homeSection}>
-                    <div className={styles.name}><span className={styles.nameText}>jeffy yu</span></div>
+                    <div className={styles.name}><span className={styles.nameText}>jeffy (korina) yu</span></div>
                 </section>
                 <section className={styles.homeSection}>
                     <div className={styles.occupation}>
