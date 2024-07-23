@@ -10,7 +10,7 @@ const NavBar = () => {
             <ul className={styles.navList}>
                 {router.pathname !== '/' && (
                     <li className={styles.navItem}>
-                        <Link href="/" className={router.pathname !== '/' ? styles.navLinkWhite : styles.navLink}>
+                        <Link href="/" className={styles.navLink}>
                             home
                         </Link>
                     </li>
@@ -25,15 +25,15 @@ const NavBar = () => {
                 )}
                 */}
 
-                {/*
+
                 {router.pathname !== '/portfolio' && (
                     <li className={styles.navItem}>
                         <Link href="/portfolio" className={styles.navLink}>
-                            technical portfolio
+                            portfolio
                         </Link>
                     </li>
                 )}
-
+                {/*
                 {router.pathname !== '/gallery' && router.pathname !== '/wheredowegonow' && (
                     <li className={styles.navItem}>
                         <Link href="/gallery" className={styles.navLink}>
