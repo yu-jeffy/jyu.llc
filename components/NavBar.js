@@ -15,7 +15,7 @@ const NavBar = () => {
                         </Link>
                     </li>
                 )}
-                
+                {/*
                 {router.pathname !== '/exhibit' && (
                     <li className={styles.navItem}>
                         <Link href="/exhibit" className={styles.navLink}>
@@ -23,7 +23,7 @@ const NavBar = () => {
                         </Link>
                     </li>
                 )}
-
+                */}
 
                 {/*
                 {router.pathname !== '/portfolio' && (
