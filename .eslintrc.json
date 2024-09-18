@@ -1,4 +1,16 @@
 {
-  "extends": "next/core-web-vitals"
-}
+  "extends": "next/core-web-vitals",
+  "rules": {
+    // Allow using <img> element when necessary, but Next.js recommends <Image> for optimization
+    "@next/next/no-img-element": "off",
 
+    // Enforce display names on React components
+    "react/display-name": "warn",
+
+    // Ensure hooks are used correctly
+    "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
+    "react-hooks/exhaustive-deps": "warn", // Checks effect dependencies
+
+    // Add additional rules or overrides here if necessary
+  }
+}
