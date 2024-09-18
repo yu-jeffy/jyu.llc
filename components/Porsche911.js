@@ -22,4 +22,6 @@ const Porsche911 = forwardRef(({ position = [0, 0, 0], scale = 1 }, ref) => {
   )
 })
 
+Porsche911.displayName = 'Porsche911';
+
 export default Porsche911;

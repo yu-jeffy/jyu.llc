@@ -46,5 +46,7 @@ const TreesGroup = React.memo(({
       </group>
     );
   });
+
+TreesGroup.displayName = 'TreesGroup';
   
 export default TreesGroup;

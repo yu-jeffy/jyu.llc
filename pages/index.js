@@ -1,30 +1,10 @@
-import { useState, useEffect } from 'react';
+import styles from '../styles/index.module.css';
+import React, { useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import TownPage from './TownPage';  // Import the town component
-import styles from '../styles/index.module.css';
+import NavBar from '../components/NavBar';
 
 const Home = () => {
-    const [isMobile, setIsMobile] = useState(false);
-
-    useEffect(() => {
-        // Function to check if the window width is less than 768px (mobile breakpoint)
-        const checkIsMobile = () => {
-            setIsMobile(window.innerWidth < 768);
-        };
-
-        // Initial check on component mount
-        checkIsMobile();
-
-        // Add event listener for window resize
-        window.addEventListener('resize', checkIsMobile);
-
-        // Cleanup event listener on unmount
-        return () => {
-            window.removeEventListener('resize', checkIsMobile);
-        };
-    }, []);
-
     useEffect(() => {
         const reveal = () => {
             const reveals = document.querySelectorAll(".reveal");
@@ -47,14 +27,9 @@ const Home = () => {
         return () => window.removeEventListener("scroll", reveal);
     }, []);
 
-    // Render Town.js for desktop and the existing content for mobile
-    if (!isMobile) {
-        return <TownPage />;  // Render the Town component for desktop
-    }
-
-    // Render the original content for mobile
     return (
         <div className={styles.container}>
+            <NavBar />
             <div className={styles.starContainer}>
                 <div className={styles.stars}></div>
                 <div className={styles.stars2}></div>

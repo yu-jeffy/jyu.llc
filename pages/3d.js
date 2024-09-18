@@ -12,6 +12,7 @@ import PathTrail from '../components/PathTrail';
 import { Stars } from '@react-three/drei';
 import styles from '../styles/TownPage.module.css';
 import TreesGroup from '../components/TreesGroup';
+import Image from 'next/image';
 
 // Constants
 const GRID_SIZE = 20; // Increased grid size to make the city larger
@@ -85,7 +86,7 @@ const InfoPanel = ({ building }) => {
 
     return (
         <div className={styles.infoPanel}>
-            <img src={building.imageUrl} alt={building.name} className={styles.image} />
+            <Image src={building.imageUrl} alt={building.name} className={styles.image} width={100} height={100} />
             <h2>{building.name.toUpperCase()}</h2>
             <a href={building.externalUrl} target="_blank" rel="noopener noreferrer" className={styles.button}>
                 VISIT SITE
@@ -713,5 +714,7 @@ const TownPage = () => {
         </div>
     );
 };
+
+
 
 export default TownPage;

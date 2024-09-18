@@ -15,15 +15,14 @@ const NavBar = () => {
                         </Link>
                     </li>
                 )}
-                {/*
-                {router.pathname !== '/exhibit' && (
+
+                {router.pathname !== '/3d' && (
                     <li className={styles.navItem}>
-                        <Link href="/exhibit" className={styles.navLink}>
-                        exhibit
+                        <Link href="/3d" className={styles.navLink}>
+                        3d cityscape
                         </Link>
                     </li>
                 )}
-                */}
 
 
                 {router.pathname !== '/portfolio' && (

@@ -20,4 +20,6 @@ const Tree = forwardRef(({ position = [0, 0, 0], scale = 1, rotation = [0, 0, 0]
   );
 });
 
+Tree.displayName = 'Tree';
+
 export default Tree;
