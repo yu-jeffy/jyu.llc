@@ -1,0 +1,167 @@
+/* TownPage.module.css */
+
+.infoPanel {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 320px;
+    padding: 24px;
+    background-color: rgba(18, 18, 18, 0.95);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    z-index: 1000;
+    max-height: calc(100vh - 40px);
+    overflow-y: auto;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    color: #ffffff;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.infoPanel:hover {
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.4);
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.button:hover {
+    background-color: #3b82f6;
+    transform: translateY(-2px);
+}
+
+.canvasWrapper {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #000000;
+}
+
+/* Additional styles for a more modern look */
+
+.infoPanel h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+
+.infoPanel p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    color: #e2e8f0;
+}
+
+/* Scrollbar styling for webkit browsers */
+.infoPanel::-webkit-scrollbar {
+    width: 8px;
+}
+
+.infoPanel::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+.infoPanel::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+.infoPanel::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* InstructionsPanel.module.css */
+.instructionsPanel {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(18, 18, 18, 0.85);
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.instructionsPanel:hover {
+    background-color: rgba(24, 24, 24, 0.95);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3);
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #ffffff;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #3b82f6;
+}
+
+.controlsList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+}
+
+.controlsList li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.key {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    margin-right: 8px;
+    min-width: 24px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.hint {
+    font-size: 14px;
+    color: #a0aec0;
+    margin: 0;
+    line-height: 1.4;
+}

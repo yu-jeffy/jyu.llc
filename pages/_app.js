@@ -15,7 +15,7 @@ function App({ Component, pageProps }) {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <NavBar />
+      {/* <NavBar /> */}
       <Component {...pageProps} />
     </div>
   );
