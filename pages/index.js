@@ -99,15 +99,6 @@ const Home = () => {
                                 alt="foundation"
                             />
                         </Link>
-                        <Link href="https://soundcloud.com/korinayu">
-                            <Image
-                                className={styles.icon}
-                                src="/logos/soundcloud.png"
-                                width={50}
-                                height={50}
-                                alt="soundcloud"
-                            />
-                        </Link>
                     </div>
 
                     <div className={styles.about}>
